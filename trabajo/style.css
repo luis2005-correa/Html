@@ -1,10 +1,6 @@
-
-
 .galeria-juegos {
     display: flex; 
-    
     justify-content: center; 
-    
     flex-wrap: wrap; 
 }
 
@@ -18,28 +14,23 @@
     text-align: center;
     width: 500px;
 }
-body 
-{
-  background-color :aliceblue
-}
-#inicio
-{
+
+body {
   background-color: aliceblue;
 }
-#footer
-{
+
+#footer {
   text-align: center;
   color: white;
   background-color: crimson;
 }
-#Sub
-{
+
+#Sub {
   text-align: center;
 }
 
-/*panel*/
-#sub
-{
+/* panel */
+#sub {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,9 +39,7 @@ body
   color: white;
 }
 
-
 /* para el panel fijo */
-
 :root {
   --bg: #152a55;
   --text: #ffffff;
@@ -72,7 +61,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  position: fixed; /* Fijo arriba */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -93,10 +82,12 @@ body {
   height: 36px;
   border-radius: 8px;
   display: inline-block;
+  background: var(--accent);
+  overflow: hidden;
 }
 
 .nav {
-  display: flex;
+  display: flexbox;
   gap: 1rem;
   align-items: center;
 }
@@ -106,8 +97,9 @@ body {
   text-decoration: none;
   padding: 0.4rem 0.6rem;
   border-radius: 6px;
+  
 }
-
+  
 .nav a:hover {
   background: rgba(255, 255, 255, 0.06);
 }
@@ -116,62 +108,13 @@ main {
   padding-top: calc(var(--height) + 1rem);
 }
 
-.Steamcolom{
-  
+.Steamcolom {
   font-family: "Times New Roman", serif;
 }
-.Steamimagen
-{
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-}
-#encabezado{
-
-  display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  text-align: center;     
-  width: 100%;          
-  justify-content: center;  
-  flex-wrap: wrap; 
-}
-#galeria-juegos tr {
-  background: #d9e3f7;
-}
-#galeria-juegos td,
-#galeria-juegos th {
-  padding: 12px;
-  vertical-align: top;
-}
-#galeria-juegos img {
-  text-align: center;
-  margin: 20px;
-  width: 400px;
-  height: 200px;
-  object-fit: cover;
-}
-#StCol {
-   font-size: 28px;
-  text-shadow: 2px 2px 5px #8fd3ff;
-  margin: 10px 0 5px 0;
-  text-shadow:
-  10px 10px 5px rgb(161, 172, 233),
-  15px 15px 10px rgb(133, 255, 237);
-  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-#txt {
-
-  font-family: 'lucida sans', 'lucida sans regular', 'lucida grande', 'lucida sans unicode', geneva, verdana, sans-serif;
-  font-size: 15px;
-  text-align: center;
-  display: block;
-  margin-top: 5px;
+#letrasPanel{
   
-
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
 }
-
-
-
-
